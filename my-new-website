@@ -1,0 +1,10 @@
+<script>start("/Users/aadyasaxena/.vscode/my-new-website/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow(".git",".git",1,320,"320 B",1737475470,"1/21/25, 9:34:30 PM");</script>
+<script>addRow("node_modules","node_modules",1,27712,"27.1 kB",1735337147,"12/28/24, 3:35:47 AM");</script>
+<script>addRow("public","public",1,256,"256 B",1736327117,"1/8/25, 2:35:17 PM");</script>
+<script>addRow("src","src",1,384,"384 B",1735801350,"1/2/25, 12:32:30 PM");</script>
+<script>addRow(".gitignore",".gitignore",0,310,"310 B",1735336989,"12/28/24, 3:33:09 AM");</script>
+<script>addRow("package-lock.json","package-lock.json",0,651783,"637 kB",1735337147,"12/28/24, 3:35:47 AM");</script>
+<script>addRow("package.json","package.json",0,715,"715 B",1735337147,"12/28/24, 3:35:47 AM");</script>
+<script>addRow("README.md","README.md",0,3359,"3.3 kB",1735336989,"12/28/24, 3:33:09 AM");</script>
