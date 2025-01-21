@@ -1,0 +1,174 @@
+/* Molecule background style */
+.molecule-background {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    max-width: 30%;
+    height: auto;
+    z-index: -1;
+    opacity: 0.8;
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #7c8db1, #004a9f, #021d36);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-logo-left img,
+.navbar-logo-right img {
+    height: 100px;
+    width: auto;
+}
+
+/* Navbar Title */
+.navbar-title {
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0 0 6px rgba(255, 204, 0, 0.7), 0 0 12px rgba(255, 204, 0, 0.5);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navbar Links */
+.navbar-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-links li {
+    position: relative;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #eaf4ff;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 6px rgba(255, 204, 0, 0.5);
+}
+
+/* Navbar Dropdown (Event Schedule) */
+.schedule {
+    position: relative;
+    cursor: pointer;
+}
+
+.schedule-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #00386b;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.schedule:hover .schedule-dropdown {
+    display: block;
+}
+
+.schedule-dropdown li a {
+    color: #eaf4ff;
+    padding: 0.8rem;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.schedule-dropdown li a:hover {
+    background-color: #ffcc00;
+    color: #002c57;
+}
+
+/* Mobile View - Navbar Adjustments */
+@media (max-width: 768px) {
+    .navbar-links {
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #00386b;
+        width: 100%;
+        padding: 1rem;
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* Section Styling */
+.section {
+    padding: 2rem;
+    background: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #00386b;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Register Button Styling */
+.register-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #ffcc00;
+    color: #002c57;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #ffd633;
+}
+
+/* Countdown Styling */
+.time-box span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0075d8;
+}
+
+.time-box p {
+    font-size: 1rem;
+    color: #00386b;
+}

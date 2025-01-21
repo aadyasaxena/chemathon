@@ -1,0 +1,114 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background: linear-gradient(135deg, #001a33, #003366);
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  overflow: hidden;
+  background: url('/Users/aadyasaxena/Desktop/teamwork-dim-modern-lab.1600x0.webp') no-repeat center center/cover;
+  background-color: #001a33; /* Dark blue fallback in case the image doesn't load */
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, #ffcc00, #ff9900);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 153, 0, 0.7);
+}
+
+/* Countdown Section */
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 51, 0.8); /* Dark blue shade */
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  width: 90%;
+  max-width: 600px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.time-box span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.time-box p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Event Description */
+.event-description {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  background-color: rgba(0, 0, 51, 0.8); /* Dark blue shade */
+  padding: 2rem;
+  border-radius: 10px;
+  line-height: 1.8;
+  max-width: 800px;
+  text-align: left;
+}

@@ -1,0 +1,33 @@
+/* Footer Styling */
+.footer {
+    background-color: #121212; /* Dark Background */
+    padding: 1.5rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid #0b3d91; /* Subtle Blue Border */
+  }
+  
+  /* Footer Text Styling */
+  .footer p {
+    margin: 0;
+    color: #b0b0b0; /* Lighter grey text */
+  }
+  
+  /* Hover Effect on Footer Text */
+  .footer p:hover {
+    color: #39FF14; /* Neon Green on Hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1rem;
+    }
+  
+    .footer p {
+      font-size: 0.9rem;
+    }
+  }
+  

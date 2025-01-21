@@ -1,0 +1,36 @@
+/* Sponsors Section Styling */
+.sponsors {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1a1a1a;
+    margin: 2rem 0;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .sponsors h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #0efb70; /* Green color to match theme */
+    text-shadow: 0 0 10px rgba(14, 251, 112, 0.7);
+  }
+  
+  .sponsor-logos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .sponsor-logos img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sponsor-logos img:hover {
+    transform: scale(1.1);
+  }
+  

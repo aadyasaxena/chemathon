@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #0b3d91;
+}
+
+input, button {
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #064579;
+}

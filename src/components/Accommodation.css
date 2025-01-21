@@ -1,0 +1,134 @@
+/* Accommodation Container */
+.accommodation-container {
+  padding: 2rem;
+}
+
+/* Header Section */
+.accommodation-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.accommodation-header h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #d2e544;
+  text-shadow: 0px 0px 7pxrgb(220, 234, 35)0;
+  margin-bottom: 1rem;
+}
+
+.accommodation-header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Steps Section */
+.accommodation-steps {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.accommodation-steps h2 {
+  font-size: 2.5rem;
+  color: #e1e43d;
+  text-shadow: 0px 0px 10px #ece909;
+  margin-bottom: 2rem;
+}
+
+.steps-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.step-card {
+  background: rgba(10, 42, 67, 0.95);
+  border: 2px solid #e7ee32;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0px 0px 15px rgba(225, 232, 98, 0.933);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 30px rgba(225, 232, 98, 0.933);
+}
+
+.step-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Pricing Section */
+.accommodation-pricing {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.accommodation-pricing h2 {
+  font-size: 2.5rem;
+  color: #efec36;
+  text-shadow: 0px 0px 10px rgba(225, 232, 98, 0.933);
+  margin-bottom: 2rem;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  background: rgba(10, 42, 67, 0.95);
+  border: 2px solid rgba(225, 232, 98, 0.933);
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0px 0px 15px rgba(225, 232, 98, 0.933);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 30px rgba(225, 232, 98, 0.933);
+}
+
+.pricing-card h3 {
+  color: rgba(225, 232, 98, 0.933);
+  margin-bottom: 1rem;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  color: #ddd;
+}
+
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* FAQs Section */
+.accommodation-faqs {
+  text-align: center;
+}
+
+.accommodation-faqs h2 {
+  font-size: 2.5rem;
+  color: rgba(225, 232, 98, 0.933);
+  text-shadow: 0px 0px 10px #ffe066;
+  margin-bottom: 2rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+
+.faq-item h3 {
+  color: rgba(225, 232, 98, 0.933);
+  margin-bottom: 0.5rem;
+}
