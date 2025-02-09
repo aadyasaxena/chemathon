@@ -7,7 +7,7 @@
   background: linear-gradient(135deg, #001a33, #003366);
   color: white;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
 
@@ -23,7 +23,6 @@
   text-align: center;
   padding: 3rem;
   overflow: hidden;
-  background: url('/Users/aadyasaxena/Desktop/teamwork-dim-modern-lab.1600x0.webp') no-repeat center center/cover;
   background-color: #001a33; /* Dark blue fallback in case the image doesn't load */
 }
 

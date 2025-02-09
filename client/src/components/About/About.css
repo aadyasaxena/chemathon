@@ -1,0 +1,107 @@
+.about-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #333;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  z-index: -1;
+  transition: opacity 1s ease;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: none;
+}
+
+.about-content {
+  max-width: 700px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #000000;
+}
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 2rem;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 300px; /* Specify a fixed height */
+  border-radius: 10px;
+  object-fit: cover; /* Crop the image to fill the container */
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #0efb70;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-content {
+    padding: 1rem;
+  }
+
+  .image-slider {
+    max-width: 300px;
+  }
+
+  .image-slider img {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}

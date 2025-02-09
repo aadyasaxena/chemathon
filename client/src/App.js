@@ -1,11 +1,11 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Register from './components/Register';
-import Accommodation from './components/Accommodation';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
+import React from "react";
+import Navbar from "./components/Landing/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Register from "./components/Register/RegistrationForm";
+import Accommodation from "./components/Accommodation/Accommodation";
+import ContactUs from "./components/Contact/ContactUs";
+import Footer from "./components/Landing/Footer";
 
 const App = () => {
   return (
